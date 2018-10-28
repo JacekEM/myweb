@@ -62,10 +62,16 @@ div.menu rightbutton.active, div.menu leftbutton.active {
     display: none;
     padding: 16px 12px;
     border-top: none;
+    font-size: 20px;
+    line-height: 30px;
 }
 
-
-
+.list {
+  float: left;
+  color: #556B2F;
+  text-align: left;
+  padding: 16px
+}
 
 /* for one bastard that floats to the right */
 li.menuright {
@@ -84,9 +90,8 @@ li.menu:hover, li.menuright:hover {
     cursor: pointer;
    }
 
-
-
 .footer {
+color: #556B2F;
 position: fixed;
 right: 0;
 bottom: 0;

@@ -1,4 +1,4 @@
-/* I will put JS script, if I learn any :D */
+/* I will put JS script here, if I learn any :D */
 
 
 function openTab(evt, tabName) {
@@ -14,8 +14,6 @@ function openTab(evt, tabName) {
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
 }
-
-
 
 
 var slideIndex = 1;
