@@ -4,4 +4,4 @@ phases:
     build:
         commands:
           - echo "starting build"
-          - aws s3 sync --delete --exclude ".git" --exclude "buildspec.yml" . "s3://jacek-placek"
+          - aws s3 sync --delete ./personal_web/ "s3://jacek-placek"

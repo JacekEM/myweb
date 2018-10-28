@@ -1,0 +1,97 @@
+
+
+body {background-color: grey;}
+
+
+
+
+/* Style the tab */
+
+div.menu {
+  font-family: 'Playfair Display', serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+/* Style the buttons inside the tab */
+div.menu leftbutton {
+    background-color: inherit;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+
+}
+
+div.menu rightbutton {
+    background-color: inherit;
+    color: white;
+    float: right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+
+}
+
+
+/* Change background color of buttons on hover */
+div.menu rightbutton:hover, div.menu leftbutton:hover {
+  background-color: #111111;
+  font-size:120%;
+  cursor: pointer;
+}
+
+/* Create an active/current tablink class */
+div.menu rightbutton.active, div.menu leftbutton.active {
+    background-color: inherit;
+    color: red;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 16px 12px;
+    border-top: none;
+}
+
+
+
+
+/* for one bastard that floats to the right */
+li.menuright {
+float: right;
+color: white;
+text-align: center;
+display: block;
+text-decoration: none;
+padding: 16px
+}
+
+/* hover for top menu, right and left */
+li.menu:hover, li.menuright:hover {
+    background-color: #111111;
+    font-size:120%;
+    cursor: pointer;
+   }
+
+
+
+.footer {
+position: fixed;
+right: 0;
+bottom: 0;
+left: 0;
+padding: 1rem;
+background-color: #333333;
+text-align: center;
+}
